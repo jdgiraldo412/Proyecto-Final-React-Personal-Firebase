@@ -100,13 +100,25 @@ export function Home() {
             <section>
                 <div class="container-fluid mt-5">
                     <div class="row">
+                        <div class="col-12">
+                            <h1>
+                                noticias
+                            </h1>
+                            <hr/>
+                        </div>
+                    </div>
+    
+                    <div class="row">
                         <div class="col-12 col-md-4">
                             <img src='https://firebasestorage.googleapis.com/v0/b/reactpersonalspotifyapp.appspot.com/o/000242640W.jpg?alt=media&token=1be6134d-ab0a-4298-9d8e-655560888541' alt='ImageLeft' class="img-fluid w-100" />
+                            <p>Buen concierto no lo dejes Pasar</p>
                         </div>
                         <div class="col-12 col-md-4">
                             <img src='https://firebasestorage.googleapis.com/v0/b/reactpersonalspotifyapp.appspot.com/o/EWfEI8TWoAMrXRe.jpg?alt=media&token=fa2bcecb-d493-495b-bbbc-7be24d6b0b2c' alt='ImageCenter' class="img-fluid w-100" />
+                            <p>Estamos a solo dos horas del sabado </p>
                         </div><div class="col-12 col-md-4">
                             <img src='https://firebasestorage.googleapis.com/v0/b/reactpersonalspotifyapp.appspot.com/o/MFYzjH1BOe0G7okKcZ5fG1.webp?alt=media&token=52b31832-a6aa-45a3-9f39-ca9d93527948' alt='ImageRight' class="img-fluid w-100" />
+                            <p>No te lo pierdas España</p>
                         </div>
                     </div>
                 </div>
