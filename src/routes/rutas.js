@@ -7,6 +7,7 @@ import { Members } from '../Components/Members/Members';
 import { Music } from '../Components/Music/Music';
 import { Albums } from '../Components/Albums/Albums';
 import { Mercancia } from "../shared/Mercancia";
+import {Ampliarinfo} from "../Ampliarinfo/Ampliarinfo"
 
 // Shared Components
 import { Menu } from '../shared/Menu/Menu';
@@ -24,6 +25,7 @@ export function Rutas() {
               <Route path="/music" element={<Music />} />
               <Route path="/albums" element={<Albums />} />
               <Route path="/mercancia" element={<Mercancia />} />
+              <Route path="/tienda" element={<Ampliarinfo />} />
             </Routes>
             {/* <Footer /> */}
         </>

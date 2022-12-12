@@ -31,14 +31,9 @@ export function Members() {
 
     return(
         <>
-
-        <h1 class="text-center">{titulo}</h1>
-        <div class="container">
-            
-        </div>
-
-        
-        
+        <h1 className="text-center">{titulo}</h1>
+        <div className="container">
+        </div>        
         </>
     )
 }
