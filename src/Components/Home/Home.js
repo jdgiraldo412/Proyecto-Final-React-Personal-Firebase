@@ -13,12 +13,12 @@ export function Home() {
                 <div className="container">
                     <div className="row mt-5">
                         <div className="col-12 col-md-8">
-                            <h2>One Direction</h2>
+                            <h2>GORILLAZ</h2>
                             <p>
-                                El grupo comenzó en 2010 en "The X Factor" después de que Niall Horan, Zayn Malik, Liam Payne, Harry Styles y Louis Tomlinson se presentaran en las audiciones de este programa. Individualmente, no lograron pasar a la siguiente ronda, pero formaron una banda, que ahora es una de las más exitosas de la historia.
+                            Gorillaz es una banda británica creada en 1998 por Damon Albarn y Jamie Hewlett. La banda utiliza cuatro personajes ficticios los cuales son: 2-D, Noodle, Murdoc Niccals y Russel Hobbs. Su nombre tiene un motivo, se debe a que sus creadores nacieron, según el calendario chino, en el año del mono.
                             </p>
                             <figure>
-                                <img className="img-fluid w-100" src='https://firebasestorage.googleapis.com/v0/b/reactpersonalspotifyapp.appspot.com/o/532cd5e6dd0f2d9ae132270ba49c0d24.jpg?alt=media&token=07c96ac9-ace8-44f8-9946-3fa2d4c324d6' alt='' />
+                                <img className="img-fluid w-100" src='https://firebasestorage.googleapis.com/v0/b/spotifyjdg-eff06.appspot.com/o/imgp.jpeg?alt=media&token=6bb4d169-30d2-46d1-900c-3565c1a0be18' alt='' />
                             </figure>
                         </div>
                         <div className="col-12 col-md-4 bg-dark text-white">
@@ -110,15 +110,15 @@ export function Home() {
     
                     <div className="row">
                         <div className="col-12 col-md-4">
-                            <img src='https://firebasestorage.googleapis.com/v0/b/reactpersonalspotifyapp.appspot.com/o/000242640W.jpg?alt=media&token=1be6134d-ab0a-4298-9d8e-655560888541' alt='ImageLeft' className="img-fluid w-100" />
+                            <img src='https://firebasestorage.googleapis.com/v0/b/spotifyjdg-eff06.appspot.com/o/gor2.jpg?alt=media&token=d3e99e09-bddc-448a-bfe7-8856cb2d35f7' alt='ImageLeft' className="img-fluid w-100" />
                             <p>Buen concierto no lo dejes Pasar</p>
                         </div>
                         <div className="col-12 col-md-4">
-                            <img src='https://firebasestorage.googleapis.com/v0/b/reactpersonalspotifyapp.appspot.com/o/EWfEI8TWoAMrXRe.jpg?alt=media&token=fa2bcecb-d493-495b-bbbc-7be24d6b0b2c' alt='ImageCenter' className="img-fluid w-100" />
+                            <img src='https://firebasestorage.googleapis.com/v0/b/spotifyjdg-eff06.appspot.com/o/IMGABA.jpeg?alt=media&token=394f6f27-4e6f-4b88-8ebc-f0a27658c3d3' alt='ImageCenter' className="img-fluid w-100" />
                             <p>Estamos a solo dos horas del sabado </p>
                         </div><div className="col-12 col-md-4">
-                            <img src='https://firebasestorage.googleapis.com/v0/b/reactpersonalspotifyapp.appspot.com/o/MFYzjH1BOe0G7okKcZ5fG1.webp?alt=media&token=52b31832-a6aa-45a3-9f39-ca9d93527948' alt='ImageRight' className="img-fluid w-100" />
-                            <p>No te lo pierdas España</p>
+                            <img src='https://firebasestorage.googleapis.com/v0/b/spotifyjdg-eff06.appspot.com/o/gorillaz-live-from-london_02.jpg?alt=media&token=68c77f9a-61a4-405f-968d-90f6d687310f' alt='ImageRight' className="img-fluid w-100" />
+                            <p>No te lo pierdas Colombia</p>
                         </div>
                     </div>
                 </div>
