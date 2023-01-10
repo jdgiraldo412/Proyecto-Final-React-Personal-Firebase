@@ -22,7 +22,7 @@ export function Menu() {
                             <Link className="nav-link" to="/members">Integrantes</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/music">Musica</Link>
+                            <Link className="nav-link" to="/music">Music</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/albums">Albumes</Link>
