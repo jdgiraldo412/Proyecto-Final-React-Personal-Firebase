@@ -31,9 +31,19 @@ export function Members() {
 
     return(
         <>
-        <h1 className="text-center">{titulo}</h1>
+        <h1>{titulo}</h1>
         <div className="container">
-        </div>        
+            <div className="row row-col-1 row-cols-md-1 g-5">
+                {
+                    integrantes.map(function(integrante){
+                        console.log(integrante);
+                    })
+                }
+            </div>
+        </div>
+        
         </>
     )
+
+  
 }
