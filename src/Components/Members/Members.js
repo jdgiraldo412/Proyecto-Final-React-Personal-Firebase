@@ -3,8 +3,6 @@ export function Members() {
     let titulo="integrantes de la banda"
 
     let integrantes=[
-
-
         {
             foto:"https://firebasestorage.googleapis.com/v0/b/spotifyjdg-eff06.appspot.com/o/2.jpg?alt=media&token=a29fd0d5-2291-47aa-b15d-00cbe0ec942b",
             nombre:"Stuart Harold",
@@ -22,26 +20,30 @@ export function Members() {
             history:"Murdoc Niccals, nacido el 6 de Junio de 1966 (56 años), en Stoke-on-Trent, Inglaterra, es un personaje ficticio, bajista de la banda virtual Gorillaz. Fue creado por Jamie Hewlett y Damon Albarn. De carácter sádico, agresivo y malvado."
         },
         {
-            foto:"https://firebasestorage.googleapis.com/v0/b/spotifyjdg-eff06.appspot.com/o/3.jpg?alt=media&token=8a57651c-56f6-4ad9-a0d9-2337e21af1ab",
+            foto:"https://firebasestorage.googleapis.com/v0/b/spotifyjdg-eff06.appspot.com/o/ruseel.jpg?alt=media&token=b6d86d74-8f43-4697-9f25-a0812815c92d",
             nombre:"Russel Hobbs",
             history:"Russel Hobbs (Nueva York, 3 de junio de 1975) es un músico ficticio estadounidense y miembro de la banda virtual Gorillaz. Expresado por Remi Kabaka Jr. Fue creado por Damon Albarn y Jamie Hewlett."
-
         }
     ]
 
     return(
         <>
-        <h1>{titulo}</h1>
-        <div className="container">
-            <div className="row row-col-1 row-cols-md-1 g-5">
-                {
-                    integrantes.map(function(integrante){
-                        console.log(integrante);
-                    })
-                }
+            <h1 className="text-center">{titulo}</h1>
+            <div className="container">
+                <div className="row row-col-1 row-cols-md-1 g-5">
+                    {
+                        integrantes.map(function(integrante){
+                            return(
+                                <div>
+                                    <img src={integrante.foto}></img>
+                                    <h1>{integrante.nombre}</h1>
+                                    <p>{integrante.history}</p>
+                                </div>
+                            )
+                        })
+                    }
+                </div>
             </div>
-        </div>
-        
         </>
     )
 

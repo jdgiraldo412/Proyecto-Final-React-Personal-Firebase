@@ -71,16 +71,12 @@ let navegante=useNavigate()
               <div key={id}>
                 <div className="col">
                   <div className="card h-100 shadow">
-
-                    
                     <img src={producto.foto}alt="foto"className="h-100 img-fluid w-100"></img>
 
                     <button className="btn btn-primary mx-5 my-3" onClick={
                         function(){
                             detectarEvento(producto)
                         }}>Ampliar</button>
-
-
 
                     <hr />
                     <h3 className="pb-2 text-center">{producto.nombre}</h3>
@@ -91,8 +87,8 @@ let navegante=useNavigate()
             );
           })}
         </div>
-        <Footer />
       </div>
+      <Footer />
     </>
   );
 }

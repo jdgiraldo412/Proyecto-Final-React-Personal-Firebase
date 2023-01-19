@@ -19,9 +19,8 @@ export function Footer() {
                             <i className="bi bi-instagram fuente me-5"></i>
                             <i className="bi bi-instagram fuente me-5"></i>
                             <i className="bi bi-instagram fuente me-5"></i>
-                            <i className="bi bi-vimeo fuente"></i>
-                            
-                            </div> 
+                            <i className="bi bi-vimeo fuente"></i>    
+                        </div> 
                     </div>
                 </div>
             </footer>
