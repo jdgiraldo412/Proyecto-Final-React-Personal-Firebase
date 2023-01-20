@@ -1,5 +1,6 @@
 import './Ampliarinfo.css'
 import { useLocation } from "react-router-dom"
+
 export function Ampliarinfo(){
 
     let datosrecibidos=useLocation()
